@@ -1,0 +1,29 @@
+{
+  "name": "philqa-codeceptjs-ui-tests",
+  "version": "1.0.0",
+  "description": "Automated UI tests for phil.qa using codeceptjs and other libraries",
+  "author": {
+    "name": "Phil Hicks"
+  },
+  "files": [
+    "/dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philqa/phinplqa-codeceptjs-ui-tests"
+  },
+  "scripts": {
+    "test": "codeceptjs run -c e2e/ --steps --reporter mocha-multi"
+  },
+  "devDependencies": {
+    "codeceptjs": "^2.0.3",
+    "puppeteer": "^1.11.0",
+    "ts-node": "^7.0.1",
+    "mocha-multi": "^1.0.1",
+    "mocha-junit-reporter": "^1.18.0",
+    "mochawesome": "^3.1.1",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+  }
+}
