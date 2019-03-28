@@ -1,5 +1,9 @@
 # Example CodeceptJS, Typescript & Puppeteer Tests
 
+Simple example of an automated test suite using CodeceptJS and Puppeteer written in TypeScript.
+
+Supporting article: https://phil.qa/article/codeceptjs
+
 ## Setup & Run
 
 ```
