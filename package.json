@@ -13,7 +13,8 @@
     "url": "https://github.com/philqa/phinplqa-codeceptjs-ui-tests"
   },
   "scripts": {
-    "test": "codeceptjs run -c e2e/ --steps --reporter mocha-multi"
+    "test": "codeceptjs run -c e2e/ --steps --reporter mocha-multi",
+    "cuke": "codeceptjs run -c e2e/ --steps --features --reporter mocha-multi"
   },
   "devDependencies": {
     "codeceptjs": "^2.0.3",

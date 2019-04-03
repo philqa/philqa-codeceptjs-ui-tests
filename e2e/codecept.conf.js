@@ -39,5 +39,11 @@ exports.config = {
     ],
     bootstrap: false,
     hooks: [],
+    gherkin: {
+        features: './src/features/*.feature',
+        steps: [
+            './src/step_definitions/home.steps.js'
+        ]
+    },
     name: 'philqa-codeceptjs-ui-tests'
 };
